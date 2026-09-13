@@ -1,0 +1,66 @@
+.Aceuille{
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.développement{
+    background-image: url(images/developemant.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Python{
+    background-image: url(images/python.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.JavaScript{
+    background-image: url(images/js.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cybersécurité{
+    background-image: url(images/cybersécurite.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Data{
+    background-image: url(images/data.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ux_design{
+    background-image: url(images/design.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.article{
+    display: grid;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    line-height: 1.6;
+    grid-template-columns: repeat(3, 1fr);
+}
+.article article{
+    box-shadow: 0 5px 20px orange;
+    border: 2px solid black;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.4;
+}
+.article article:hover{
+        transform: scale(1.05);
+}
+p{
+    color: black;
+    word-spacing: 1.5;
+    letter-spacing: 1.3px;
+}
+
